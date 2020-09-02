@@ -11,3 +11,10 @@ Java repository
 ### IDE
 * [IntelliJ IDEA Community Edition](https://www.jetbrains.com/ru-ru/idea/download/)
   *  Version: 2020.2.1 x64
+  
+### Maven
+Open IDE Terminal, input
+
+> mvn
+
+Then press <btn>Ctrl+Enter<btn> (Settings | Tools | Terminal).
