@@ -17,4 +17,4 @@ Open IDE Terminal, input
 
 > mvn
 
-Then press <btn>Ctrl+Enter<btn> (Settings | Tools | Terminal).
+Then press <kbd>Ctrl+Enter<kbd> (Settings | Tools | Terminal).
