@@ -1,8 +1,10 @@
 package app;
 
+// For annotations in IDE
 import org.jetbrains.annotations.NotNull;
 
 public class Main {
+    // Wrapper (Decorator)
     public static <T> void start(@NotNull Class<T> currentClass) {
         System.out.println("\n----- " + currentClass.getSimpleName() + " class has been executed! -----");
         try {
@@ -14,10 +16,13 @@ public class Main {
                 "\n\n###########################################################");
     }
 
+    // Entry point
     public static void main(String[] args) {
         System.out.println("##### Main class has been executed! #####");
         start(Hello_World.class);
         start(Bubble_Sort.class);
+        start(Prime.class);
+        start(Number_Occurrences.class);
         System.out.println("\n##### Main class has been successfully ended! #####");
     }
 }
