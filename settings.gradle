@@ -1,5 +1,2 @@
 rootProject.name = 'Java'
 include 'AU2020'
-include 'Education'
-include 'LWJGL'
-
