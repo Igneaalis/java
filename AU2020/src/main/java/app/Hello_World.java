@@ -7,7 +7,7 @@ public class Hello_World {
     /**
      * Prints `Hello World` in sysout.
      */
-    public void main() {
+    public static void main() {
         System.out.println("Hello World!");
     }
 }

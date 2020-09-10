@@ -46,7 +46,7 @@ public class Bubble_Sort {
     /**
      * Example of using bubble sort algorithm.
      */
-    public void main() {
+    public static void main() {
         int[] testCase = {64, 34, 25, 12, 22, 11, 90};
         Bubble_Sort.printArray(testCase);
         Bubble_Sort.bubbleSort(testCase);

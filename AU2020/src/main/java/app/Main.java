@@ -8,6 +8,8 @@ public class Main {
     public static <T> void start(@NotNull Class<T> currentClass) {
         System.out.println("\n----- " + currentClass.getSimpleName() + " class has been executed! -----");
         try {
+            // null if static method
+            // currentClass.getDeclaredConstructor().newInstance() if non-static method
             currentClass.getDeclaredMethod("main").invoke(currentClass.getDeclaredConstructor().newInstance());
         } catch (Throwable e) {
             System.err.println("\nThrowable in " + currentClass.getSimpleName() + ": " + e);
